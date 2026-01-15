@@ -22,7 +22,7 @@ const Accommodations = () => {
       description:
         "Spacious apartment with separate living area, full kitchen, and comfortable bedroom. Some feature charming balconies.",
       image:
-        "https://images.unsplash.com/photo-1598928506311-c55ez633a2c?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1656789280583-c5bebda7ca1d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       features: [
         { icon: Users, label: "3 Guests" },
         { icon: Maximize, label: "40 m²" },

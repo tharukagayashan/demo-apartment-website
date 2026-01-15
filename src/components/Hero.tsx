@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
         <div className="max-w-4xl mx-auto">
           {/* Rating Badge */}
-          <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-8 animate-fade-in">
+          <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-8 animate-fade-in mt-20">
             <div className="flex items-center gap-1">
               {[...Array(4)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 fill-accent text-accent" />
@@ -60,7 +60,7 @@ const Hero = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10 font-medium tracking-wide px-8 py-6 text-base"
+              className="border-primary-foreground/40 text-black-700 hover:bg-primary-foreground/10 font-medium tracking-wide px-8 py-6 text-base"
             >
               Explore Rooms
             </Button>
